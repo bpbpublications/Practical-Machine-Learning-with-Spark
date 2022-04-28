@@ -1,0 +1,4 @@
+filtered_df = dataframe.filter(dataframe.Age > 35).show(truncate=False)
+#or 
+#fitered_df = dataframe.filter(col("Age") > 35).show(truncate=False)
+

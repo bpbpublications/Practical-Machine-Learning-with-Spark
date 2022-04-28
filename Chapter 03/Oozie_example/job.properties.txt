@@ -1,0 +1,8 @@
+nameNode=hdfs://host:8020
+jobTracker=host:8050
+queueName=default
+examplesRoot=examples
+oozie.use.system.libpath=true
+oozie.wf.application.path=${nameNode}/user/${user.name}/${examplesRoot}/apps/pyspark
+master=yarn-cluster
+oozie.action.sharelib.for.spark=spark2

@@ -1,0 +1,1 @@
+multiple_cond_filtered = dataframe.filter((dataframe.Wage > 35) & (dataframe.Gender  == "M")).show(truncate=False)

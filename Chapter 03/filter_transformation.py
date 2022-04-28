@@ -1,0 +1,1 @@
+get_map_transform = df.select(df.columns[9]).rdd.filter(lambda x: x not in ['856-264-4130']).toDF()
